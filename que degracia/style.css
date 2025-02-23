@@ -1,0 +1,50 @@
+#bebidas {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  #bebidas h2 {
+    font-size: 2rem;
+    color: #FF5733;
+  }
+  
+  #bebidas p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contenedor-bebidas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .bebida {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bebida img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .bebida h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .bebida p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 10px 10px;
+  }
+  

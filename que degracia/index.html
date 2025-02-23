@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D BILO HOT DOG</title>
+
+    <link rel="stylesheet" src="style.css">
+
+    <link rel="icon" href="negocio.jpeg" type="image/jpeg">
+
+
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #FF5733;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #FF5733;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        main h2 {
+            color: #FF5733;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .menu-item {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-item h3 {
+            margin: 0;
+            padding: 10px 0;
+            background-color: #FF5733;
+            color: #fff;
+        }
+        .menu-item p {
+            margin: 0;
+            padding: 10px;
+            color: #333;
+        }
+        .cta {
+            margin: 20px 0;
+            padding: 15px 25px;
+            background-color: #FF5733;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .cta:hover {
+            background-color: #e74c3c;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer img {
+            height: 50px;
+            margin-top: 10px;
+        }
+        .about, .contact {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .about h3, .contact h3 {
+            color: #FF5733;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact form input, .contact form textarea, .contact form button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact form button {
+            background-color: #FF5733;
+            color: #fff;
+            border: none;
+        }
+        .contact form button:hover {
+            background-color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>D BILO HOT DOG</h1>
+    </header>
+
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#about">Acerca de Nosotros</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="menu">
+            <h2>Nuestro Menú</h2>
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="taco.jpeg" alt="Tacos">
+                    <h3>Tacos</h3>
+                    <p>Deliciosos tacos con variedad de rellenos y salsas.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="burrito.jpeg" alt="Burrito">
+                    <h3>Burrito</h3>
+                    <p>Burrito relleno de carne, frijoles, arroz y más.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="salchipapa.jpeg" alt="Salchipapa">
+                    <h3>Salchipapa</h3>
+                    <p>Papas fritas con salchichas y salsas especiales.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="quesadilla.jpeg" alt="Quesadilla">
+                    <h3>Quesadilla</h3>
+                    <p>Tortilla rellena de queso fundido y otros ingredientes.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="frito con salami.jpeg" alt="Frito con Salami">
+                    <h3>Frito con Salami</h3>
+                    <p>Plato tradicional con frito y salami dominicano.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="frito con longaniza.jpeg" alt="Frito con Longaniza">
+                    <h3>Frito con Longaniza</h3>
+                    <p>Frito acompañado de deliciosa longaniza.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="frito con pechuga.jpeg" alt="Pechuga a la Plancha">
+                    <h3>Pechuga a la Plancha</h3>
+                    <p>Pechuga de pollo jugosa y bien sazonada a la plancha.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="hamburguesa.jpeg" alt="Hamburguesa">
+                    <h3>Hamburguesa</h3>
+                    <p>Hamburguesa clásica con carne de res y vegetales frescos.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="chimi.jpeg" alt="Chimi">
+                    <h3>Chimi</h3>
+                    <p>Chimichurri dominicano con repollo y salsa especial.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="hot dog.jpeg" alt="Hot Dog">
+                    <h3>Hot Dog</h3>
+                    <p>Hot dog clásico con salchicha y tus toppings favoritos.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="sopa.jpeg" alt="Sopa de Vaso">
+                    <h3>Sopa de Vaso</h3>
+                    <p>Sopa instantánea servida en vaso para tu comodidad.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="pinchos.jpeg" alt="Pincho">
+                    <h3>Pincho</h3>
+                    <p>Brocheta de carne o pollo asada a la perfección.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="club.jpeg" alt="Club Sandwich">
+                    <h3>Club Sandwich</h3>
+                    <p>Sándwich triple con pollo, jamón, queso y vegetales.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="jamon.jpeg" alt="Sandwich de Jamón y Queso">
+                    <h3>Sandwich de Jamón y Queso</h3>
+                    <p>Sándwich clásico de jamón y queso en pan fresco.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="pierna.jpeg" alt="Sandwich de Pierna">
+                    <h3>Sandwich de Pierna</h3>
+                    <p>Sándwich con pierna de cerdo cocida en la plancha.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h3>Acerca de Nosotros</h3>
+            <p>D Bilo Hot Dog es un restaurante dedicado a ofrecer los mejores sabores en comida rápida con un toque único. Nuestro menú incluye una amplia variedad de opciones, desde tacos hasta hamburguesas, todas preparadas con ingredientes frescos y de alta calidad. ¡Ven y disfruta de una experiencia culinaria única!</p>
+        </section>
+
+<section> 
+
+
+
+
+
+</section>
+
+        <section id="contact" class="contact">
+            <h3>Contáctanos</h3>
+            <form action="https://formspree.io/f/mwppyown" method="POST">
+                <input type="text" name="name" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+       
+            <h1>informacion de Contacto</h1>
+
+<h2>Politecnico Profesora Rafaela Perez</h2>
+
+<h2>Desarollo y Administracion de Aplicciones informatica</h2>
+
+<h2>4toA DAAI</h2>
+
+<div><img src="yeferson.jpeg" alt=""
+    style="width: 300px;height: 250px;">
+
+
+</div>
+
+<h2>Diseno de portales web y recursos multimedia</h2>
+
+<h2>Profesor:jose alfredo almonte</h2>
+
+<h2>Estudiante: yeferson guzman</h2>
+
+
+
+
+            <section id="bebidas">
+                <h2>Nuestras Bebidas</h2>
+                <p>Explora nuestra selección de bebidas únicas y refrescantes, hechas para todos los gustos.</p>
+                <div class="contenedor-bebidas">
+                  <div class="bebida">
+                    <img src="jugos.jpeg" alt="Bebida 1">
+                    <h3>Bebida 1</h3>
+                    
+                  </div>
+                  <div class="bebida">
+                    <img src="cerveza.jpeg" alt="Bebida 2">
+                    <h3>Bebida 2</h3>
+                    
+                  </div>
+                  <div class="bebida">
+                    <img src="refrescos.jpeg" alt="Bebida 3">
+                    <h3>Bebida 3</h3>
+                    
+                  </div>
+                </div>
+              </section>
+              
+
+
+
+            <section id="music">
+                <h3>musica para que pienses que vas a pedir</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9EtC8zBHEIc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            
+    </main>
+
+    <footer>
+        <p>&copy; 2025 | RAFAELA PEREZ | YEFERSON GUZMAN | DAAI</p>
+        
+    </footer> 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+</body>
+</html>
